@@ -1,10 +1,11 @@
 # latext5
 Проект является идейным продолжением проекта [EMMA](https://github.com/basic-go-ahead/emma).
-Репозиторий содержит использовавшиеся для реализации проекта .ipynb файлы, а также [ссылку на карточку модели на платформе Hugging Face](https://huggingface.co/turnipseason/latext5).
+Репозиторий содержит использовавшиеся для реализации проекта .ipynb файлы.
 
 ### Описание модели:
-Модель для нормализации русскоязычных текстов, содержащих математические сущности, в формат LaTeX.
+Модель для нормализации русскоязычных текстов, содержащих математические сущности, в формат LaTeX.<br>
 Модель является дообученной на переведённом&аугментированном датасете "[Mathematics Stack Exchange API Q&A Data](https://zenodo.org/records/1414384)" версией модели [cointegrated/rut5-small](https://huggingface.co/cointegrated/rut5-small).
+##### [Ссылка на карточку модели на платформе Hugging Faсe](https://huggingface.co/turnipseason/latext5)
 
 ### Пример использования модели:
 ``` python
